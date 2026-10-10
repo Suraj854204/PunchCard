@@ -12,7 +12,7 @@ uvicorn app.main:app --port 8000
 MongoDB 6.0+ is required (`$densify`, `$setWindowFields`, `$rank`). Indexes are created at startup.
 
 - API docs: http://localhost:8000/docs
-- Dashboard: http://localhost:8000/dashboard (overview heatmap, department table, late leaderboard, trend chart, employee drawer with a month calendar, records with CSV export, create/punch/regularize forms, live query-plan check, dark mode)
+- Dashboard:https://punch-card-chi.vercel.app/dashboard (overview heatmap, department table, late leaderboard, trend chart, employee drawer with a month calendar, records with CSV export, create/punch/regularize forms, live query-plan check, dark mode)
 
 ## Try it with data
 ```bash
